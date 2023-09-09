@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>todoList</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">      
+  </head>
+  
+  <body>
+    <header>
+      <h1>TodoList</h1>
+    </header>
+    
+    <sidebar>   
+      <h4>Add something you wanna do</h4>
+      <form id="smth">
+        <input type="text" id="name" placeholder="text" required>
+    
+        <input type="date" id="date">
+        
+        <button type="submit">Add</button>
+      </form>
+      <div class="line"></div>
+      <div class="show hidden">
+        <p id="name-prog"></p>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your text">
+          <button id="btn-todo">Add</button>
+        </div>
+        <ul id="list-container">
+        </ul>        
+      </div>
+    </sidebar>
+    
+    <main>
+      <div id="container"></div>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 todoList</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
